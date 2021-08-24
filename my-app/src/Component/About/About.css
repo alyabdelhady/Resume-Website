@@ -1,0 +1,163 @@
+.about-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+.child-part1 {
+  position: absolute;
+  width: 100;
+  height: 50vh;
+  background-color: rgb(39, 38, 38);
+}
+.part1 {
+  display: flex;
+  margin-top: 20px;
+}
+.about-img {
+  margin-left: 60px;
+  width: 150px;
+  border-radius: 50%;
+}
+
+.sec2 {
+  margin-left: 80px;
+}
+
+.part2 {
+  display: flex;
+
+  margin-left: 280px;
+}
+.h-sec2 {
+  color: white;
+  font-size: 20px;
+}
+.p-sec2 {
+  color: gray;
+  width: 80%;
+}
+
+.h-sec3 {
+  color: white;
+  font-size: 20px;
+}
+.p-sec3 {
+  color: gray;
+  width: 35%;
+}
+.download {
+  text-decoration: none;
+  border: 2px solid gray;
+  background-color: gray;
+  padding: 15px;
+  border-radius: 10px;
+  color: white;
+}
+.sec4 {
+  position: absolute;
+  left: 50%;
+  top: 60%;
+}
+.child-part2 {
+  position: absolute;
+  width: 100%;
+  height: 50vh;
+  bottom: 0%;
+}
+.part3 {
+  display: flex;
+}
+.h-sec5 {
+  margin-left: 90px;
+  border-bottom: 2px solid rgb(7, 77, 50);
+  color: rgb(43, 41, 41);
+  margin-top: 80px;
+}
+.sec6 {
+  margin-left: 150px;
+  margin-top: 30px;
+}
+.h-sec7 {
+  margin-left: 340px;
+  color: rgb(43, 41, 41);
+}
+.p-sec7 {
+  margin-left: 350px;
+  color: gray;
+}
+.p-sec6 {
+  color: gray;
+}
+.download:hover {
+  background-color: black;
+}
+.h-sec6 {
+  color: rgb(43, 41, 41);
+}
+
+@media screen and (max-width: 768px) {
+  .child-part1 {
+    position: absolute;
+    width: 100%;
+    height: 50vh;
+    background-color: rgb(39, 38, 38);
+  }
+  .part1 {
+    display: flex;
+  }
+  .about-img {
+    margin-left: 40px;
+    width: 100px;
+    border-radius: 50%;
+    margin-top: 30%;
+  }
+  .sec2 {
+    margin-top: 30px;
+  }
+
+  .h-sec2 {
+    font-size: 12px;
+  }
+  .p-sec2 {
+    font-size: 12px;
+  }
+  .p-sec3 {
+    font-size: 12px;
+  }
+  .h-sec3 {
+    font-size: 12px;
+  }
+  .part2 {
+    position: absolute;
+    margin-left: 30px;
+  }
+  .download {
+    padding: 10px;
+    font-size: 12px;
+  }
+  .sec4 {
+    position: absolute;
+    left: 50%;
+    top: 40%;
+  }
+
+  .h-sec5 {
+    margin-left: 20px;
+    margin-top: 15%;
+    border: none;
+  }
+  .sec6 {
+    margin-left: 90px;
+    margin-top: 40px;
+  }
+  .h-sec6,
+  .p-sec6 {
+    font-size: 14px;
+  }
+  .h-sec7,
+  .p-sec7 {
+    font-size: 14px;
+    margin-left: 220px;
+    margin-top: 40px;
+  }
+}

@@ -1,0 +1,83 @@
+.res-container {
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  background-color: gray;
+}
+
+.part-2 {
+  position: absolute;
+  right: 30%;
+  top: 2%;
+}
+.part-1 {
+  position: absolute;
+  left: 20%;
+  top: 5%;
+  border-bottom: 2px solid rgb(7, 56, 56);
+  font-size: 30px;
+  color: rgb(43, 41, 41);
+}
+.skill {
+  padding: 20px;
+}
+.skills-container {
+  width: 100%;
+  background-color: rgb(190, 181, 181);
+}
+.git {
+  width: 60%;
+  background-color: rgb(80, 75, 75);
+}
+
+.illustrator {
+  width: 40%;
+  background-color: rgb(80, 75, 75);
+}
+.reactjs {
+  width: 80%;
+  background-color: rgb(80, 75, 75);
+}
+
+.css {
+  width: 70%;
+  background-color: rgb(80, 75, 75);
+}
+.html {
+  width: 70%;
+  background-color: rgb(80, 75, 75);
+}
+.vuejs {
+  width: 50%;
+  background-color: rgb(80, 75, 75);
+}
+.mongodb {
+  width: 70%;
+  background-color: rgb(80, 75, 75);
+}
+.p-sec {
+  color: rgb(43, 41, 41);
+}
+.p-types {
+  font-weight: 700;
+  color: rgb(43, 41, 41);
+}
+
+@media screen and (max-width: 768px) {
+  .part-2 {
+    position: absolute;
+    right: 10%;
+    left: 30%;
+  }
+  .skill {
+    padding: 15px;
+  }
+  .part-1 {
+    position: absolute;
+    left: 5%;
+    top: 5%;
+
+    font-size: 25px;
+  }
+}

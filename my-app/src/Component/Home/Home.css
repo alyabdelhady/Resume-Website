@@ -1,0 +1,62 @@
+.parent {
+  display: flex;
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  background-image: url("../../images/header-background.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.child {
+  position: absolute;
+  top: 15%;
+  right: 25%;
+  width: 40%;
+}
+
+.home-head {
+  color: white;
+  font-size: 60px;
+}
+
+.media-icon {
+  position: absolute;
+  top: 60%;
+  right: 41%;
+}
+.media-link {
+  font-size: 25px;
+  padding: 0 15px;
+  text-decoration: none;
+  color: white;
+}
+.p-span {
+  color: white;
+}
+.home-p {
+  color: rgb(156, 148, 148);
+  font-size: 20px;
+  position: absolute;
+  right: 15%;
+}
+
+.media-link:hover {
+  color: rgb(36, 36, 216);
+}
+
+@media screen and (max-width: 768px) {
+  .child {
+    position: absolute;
+    top: 25%;
+    right: 6%;
+    width: 70%;
+  }
+  .home-head {
+    font-size: 30px;
+  }
+  .media-icon {
+    position: absolute;
+    top: 70%;
+    right: 22%;
+  }
+}

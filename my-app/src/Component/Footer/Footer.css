@@ -1,0 +1,45 @@
+.footer-container {
+  position: relative;
+  width: 100%;
+  height: 30vh;
+  background-color: rgb(8, 8, 8);
+}
+.fotter-icon {
+  position: absolute;
+  top: 30%;
+  left: 40%;
+}
+.fmedia-link {
+  color: gray;
+  font-size: 25px;
+  padding: 0 15px;
+}
+.fmedia-link:hover {
+  color: white;
+}
+.p-footer {
+  position: absolute;
+  top: 55%;
+  left: 35%;
+}
+
+.p-footer {
+  color: gray;
+}
+.f-point,
+.f-name {
+  color: aqua;
+}
+@media screen and (max-width: 768px) {
+  .fotter-icon {
+    position: absolute;
+
+    left: 24%;
+  }
+  .p-footer {
+    position: absolute;
+
+    left: 16%;
+    font-size: 14px;
+  }
+}
